@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+    
+}
+:root{
+    --text-color: #21334F;
+    --background-color: #E5E5E5;
+  
+}
+body{
+    background-color: #fff;
+}
+.btn{
+ background: linear-gradient(91.85deg, #DE3D6D 49.47%, #F5844C 100.15%);
+ 
+}
+.all__container{
+    padding: 0 7rem;
+}

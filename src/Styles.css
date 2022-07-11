@@ -1,0 +1,64 @@
+.zee {
+    position: relative;
+    top: -230px;
+    z-index: 1;
+}
+
+.removebod {
+    border-radius: 0 !important;
+}
+
+.spanright {
+    float: right;
+}
+
+.colorchange {
+    color: #DE3D6D !important;
+}
+
+::placeholder {
+    font-size: small;
+}
+
+.menu-effect ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu-effect li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.menu-effect a {
+    text-decoration: none;
+    color: black
+}
+
+.menu-effect li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #DE3D6D;
+    margin: auto;
+    display: block;
+}
+
+.menu-effect li a:hover::after {
+    width: 100%;
+    transition: width 0.3s linear;
+}
+
+.bgdetail{
+    background-color: white !important;
+}
+
+.colorc{
+    color: #DE3D6D !important;
+}
+
+.btnColor{
+    color:white !important;
+}

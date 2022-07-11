@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form__wrapper{
+    background: var(--background-color);
+    padding: 100px 0;
+    /* height: 100vh; */
+}
+.form__container{
+    background-color: #fff;
+    width: 600px;
+    margin: 0 auto;
+    padding:  50px 130px;
+
+}
+.form__container h3{
+    color: var(--text-color);
+    margin-bottom: 2rem;
+   
+}
+.form__link{
+    display: inline-block;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+    margin-bottom: 2rem;
+
+    
+}
+.form__link a{
+   text-decoration: none;
+    display: flex;
+    align-items: center;
+    color:var(--text-color);
+    width:6rem;
+    height: 2rem;
+    font-size:.9rem ;
+    font-weight: 400;
+  
+}
+.form__group{
+    display: flex;
+    flex-direction: column;   
+
+}
+.form__control{
+    margin-top: 20px;
+
+}
+.form__control > input{
+   padding: 8px 16px;
+   width: 320px;
+   height: 48px;
+   border: 1px solid #D9D9D9;
+   margin-top: 10px;
+   border-radius: 6px;
+  
+}
+.form__control ::placeholder{
+ color: #C4C4C4;;
+}
+.form__control > label{
+    color: var(--text-color);
+    margin-top: 1rem;
+    font-size: 12px;
+  
+}
+.form__control span{
+    font-weight: 400;
+    font-size: .8rem;
+    text-align: center;
+    color:#C4C4C4;
+    display: inline-block;
+    line-height: 19px;
+}
+.btn{
+    margin-top: 1rem;
+    border: none;
+    padding: 8px 16px;
+    gap: 10px;
+    width: 320px;
+    height: 48px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.question{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 12px;
+}
+.question p{
+    color: var(--text-color);
+    font-weight: 400;
+}
+.question a{
+    color: #DE3D6D;
+    font-weight: 700;
+}
+.forgot{
+    font-size: 12px;
+    color: #4285F4;
+}
+.forget__password{
+font-size: 1.5rem;
+font-weight:700 ;
+text-align: center;
+}
+.back__login {
+margin-top: 2.5rem;
+}
+.back__login a{
+background: rgba(0, 0, 0, 0.06);
+opacity: 0.8;
+padding: 8px 16px 10px;
+color: var(--text-color);
+
+}
+.email__icon{
+    text-align: center;
+    color: var(--text-color);
+}
+.email__icon h3{
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+}
+.email__icon p{
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #21334F;
+margin-bottom: 10px;
+}
+
+.email__icon p a{
+    
+color : #DF3E6E
+}
+
+.reset__btn{
+    color: #fff;
+}
